@@ -7,7 +7,7 @@ app = Flask(__name__)
 socketio = SocketIO(app)
 
 # Load model TensorFlow
-model = tf.keras.models.load_model('model.h5')
+model = tf.keras.models.load_model('model1.h5')
 
 @app.route('/')
 def index():
